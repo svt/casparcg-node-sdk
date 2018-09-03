@@ -1,1 +1,1 @@
-# CasparCG SDK|Nodejs
+# CasparCG SDKNodejs
