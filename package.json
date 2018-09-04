@@ -1,0 +1,29 @@
+{
+  "name": "casparcg-sdknodejs",
+  "version": "1.0.0",
+  "description": "SDK for building clients to casparcg",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SVT/casparcg-sdknodejs.git"
+  },
+  "keywords": [
+    "casparcg",
+    "sdk"
+  ],
+  "author": {
+    "name": "Christian Hjalmarsson",
+    "email": "christian.hjalmarsson@svt.se"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SVT/casparcg-sdknodejs/issues"
+  },
+  "homepage": "https://github.com/SVT/casparcg-sdknodejs#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
