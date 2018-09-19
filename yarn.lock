@@ -2693,27 +2693,6 @@ process-nextick-args@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
 
-promise-duplex@^3.0.3:
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/promise-duplex/-/promise-duplex-3.0.3.tgz#e2ae4e17dec005e3c82b96c3373049020bd627ea"
-  dependencies:
-    promise-readable "^3.1.5"
-    promise-writable "^3.1.2"
-
-promise-readable@^3.1.5:
-  version "3.1.5"
-  resolved "https://registry.yarnpkg.com/promise-readable/-/promise-readable-3.1.5.tgz#cbf2ae3de7336e3f7fbf24a63e21f5e79d173175"
-
-promise-socket@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/promise-socket/-/promise-socket-3.1.1.tgz#12797b0152acce35a0a5a963c1fa24be41af3f8e"
-  dependencies:
-    promise-duplex "^3.0.3"
-
-promise-writable@^3.1.2:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/promise-writable/-/promise-writable-3.1.2.tgz#1375cd75a3112c376c5cc22b79e777a86a57c454"
-
 prompts@^0.1.9:
   version "0.1.14"
   resolved "https://registry.yarnpkg.com/prompts/-/prompts-0.1.14.tgz#a8e15c612c5c9ec8f8111847df3337c9cbd443b2"
