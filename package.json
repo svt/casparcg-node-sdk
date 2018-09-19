@@ -1,8 +1,8 @@
 {
-  "name": "casparcg-sdknodejs",
+  "name": "casparcg-node-sdk",
   "version": "1.0.0",
   "description": "SDK for building clients to casparcg",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "jest"
   },
@@ -29,5 +29,8 @@
     "babel-preset-env": "^1.7.0",
     "jest": "^23.5.0",
     "regenerator-runtime": "^0.12.1"
+  },
+  "dependencies": {
+    "promise-socket": "^3.1.1"
   }
 }
