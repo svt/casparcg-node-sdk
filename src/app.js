@@ -1,5 +1,5 @@
-const CasparCG = require('./CasparCG/index');
+const CasparCGContainer = require('./CasparCG/Container');
 
 module.exports = {
-    CasparCG: CasparCG
+    CasparCGContainer: CasparCGContainer
 };
