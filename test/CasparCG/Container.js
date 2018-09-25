@@ -1,4 +1,4 @@
-import CasparDeviceContainer from '../../../src/CasparCG/Container';
+import CasparDeviceContainer from '../../src/CasparCG/Container';
 
 test('should create one primary CasparDevice when initilize', () => {
   const casparCGContainer = new CasparDeviceContainer('test-name', 'localhost', 5250);
