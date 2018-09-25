@@ -36,7 +36,7 @@ class CasparDeviceContainer {
       list.push(this.casparClients[name]);
     }
 
-    return this.list
+    return list
   }
 
   connect() {
