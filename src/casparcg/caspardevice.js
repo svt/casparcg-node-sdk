@@ -1,14 +1,14 @@
 'use strict';
 
-const General = require('../General');
-const Client = require('../General/Client');
+const General = require('../general');
+const CasparClient = require('./casparclient.js');
 
 class CasparDevice {
   constructor(host, port, shaddow = false) {
     this.guid = General.guid();
     this.host = host;
     this.port = port;
-    this.socket = new Client(host, port);
+    this.socket = new CasparClient(host, port);
     this.response = "";
     this.error = "";
     this.props = {
@@ -56,8 +56,6 @@ class CasparDevice {
   }
 
   async writeMessage(commandString) {
-    console.log(this.socket);
-
     if (this.socket) {
       await this.socket.writeMessage(commandString)
         .then((response) => {
@@ -68,8 +66,6 @@ class CasparDevice {
         })
 
       return this.response;
-    } else {
-      console.log("bla")
     }
   }
 }
