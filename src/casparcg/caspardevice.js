@@ -1,14 +1,14 @@
 'use strict';
 
 const General = require('../general');
-const Client = require('../general/client');
+const CasparClient = require('./casparclient.js');
 
 class CasparDevice {
   constructor(host, port, shaddow = false) {
     this.guid = General.guid();
     this.host = host;
     this.port = port;
-    this.socket = new Client(host, port);
+    this.socket = new CasparClient(host, port);
     this.response = "";
     this.error = "";
     this.props = {
