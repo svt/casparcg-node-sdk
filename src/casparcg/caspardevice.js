@@ -56,8 +56,6 @@ class CasparDevice {
   }
 
   async writeMessage(commandString) {
-    console.log(this.socket);
-
     if (this.socket) {
       await this.socket.writeMessage(commandString)
         .then((response) => {
@@ -68,8 +66,6 @@ class CasparDevice {
         })
 
       return this.response;
-    } else {
-      console.log("bla")
     }
   }
 }
