@@ -1,7 +1,7 @@
 'use strict';
 
-const General = require('../General');
-const Client = require('../General/Client');
+const General = require('../general');
+const Client = require('../general/client');
 
 class CasparDevice {
   constructor(host, port, shaddow = false) {
